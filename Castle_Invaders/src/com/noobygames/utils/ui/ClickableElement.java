@@ -11,7 +11,6 @@ public abstract  class ClickableElement extends SimpleElement {
 	public ClickableElement(Rectangle position, Texture tex) {
 		super(position, tex);
 		this.isClicked = false;
-
 	}
 
 

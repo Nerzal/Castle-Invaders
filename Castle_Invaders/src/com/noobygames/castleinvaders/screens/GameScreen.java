@@ -88,15 +88,11 @@ public class GameScreen implements Screen, InputProcessor {
 		isHonoured = false;
 		this.stickToMouse = null;
 		
-
 		table = new Table(new Rectangle(0,0,Gdx.graphics.getWidth(),Gdx.graphics.getHeight()), null);
 		table.setId(id);
-		table.addElement(dragonUlti);
-		table.addElement(elementSwitcher);
 		table.addElement(new TextureElement(new Rectangle(400, 5, 65, 65), Assets.greyTrollSelect, Species.greyTroll));
 		table.addElement(new TextureElement(new Rectangle(460, 5, 65, 65), Assets.lavaTrollSelect, Species.lavaTroll));
 		table.addElement(new TextureElement(new Rectangle(520, 5, 65, 65), Assets.iceTrollSelect, Species.iceTroll));
-		
 		
 		renderer = new WorldRenderer(world, game, player, table);
 		id+=4;
@@ -170,7 +166,7 @@ public class GameScreen implements Screen, InputProcessor {
 		renderer.render();
 		if(sticked)
 			renderer.drawTex(stickToMouse,touchPoint);
-		start = true;
+		setStart(true);
 
 		switch (state) {
 		case GAME_READY:
@@ -193,7 +189,6 @@ public class GameScreen implements Screen, InputProcessor {
 
 	private void presentGameOver() {
 		world.cleanUp();
-
 		if (Gdx.input.isTouched()) {
 			game.setScreen(new ScoreScreen(game, player, false,
 					World.earthDragonXP, World.fireDragonXP, World.iceDragonXP));
@@ -351,6 +346,20 @@ public class GameScreen implements Screen, InputProcessor {
 	public boolean scrolled(int amount) {
 
 		return false;
+	}
+
+	/**
+	 * @return the start
+	 */
+	public boolean isStart() {
+		return start;
+	}
+
+	/**
+	 * @param start the start to set
+	 */
+	public void setStart(boolean start) {
+		this.start = start;
 	}
 
 }

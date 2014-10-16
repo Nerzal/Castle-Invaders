@@ -3,7 +3,7 @@ Patch 0.05
 Patchnotes:
  - Bugfix:
  	- Mobs will now allways attack the first enemy on lane
- 	- The "hit" animation will no be properly displayed and the mobs will continue to move while the animation is displayed
+ 	- The "hit" animation will now be properly displayed and the mobs will continue to move while the animation is displayed
  - Change:
  	- Changed the mainmenu buttons 
  	- Added selfwritten UI-elements 
