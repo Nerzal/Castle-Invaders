@@ -1,0 +1,19 @@
+{
+objectLevel: 1,
+owned: false,
+price: 10,
+name: "Ich bin der erste Json test (:",
+isAvailable: true,
+costCoins: true,
+description: "kurzer test",
+objectMaxLevel: 15
+}{
+objectLevel: 2,
+owned: false,
+price: 5,
+name: "Das ist ein langer Test! :)",
+isAvailable: true,
+costCoins: true,
+description: "längerer Test undso!",
+objectMaxLevel: 15
+}
