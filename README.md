@@ -24,12 +24,16 @@ Patchnotes:
 - Added some internal store things (like read storeObjects out of a database)
 - Added burndamage to the lavagolem's fireBalls
 - Added a root effect to the icegolem's grumblingIce
+
+
 Patch 0.04 30.12.13
 Patchnotes:
 - Bugfix:
 - Mobs hit instantly (having no delay) after having a deathblow
 - Mob animations
 - Mobs did not always got a target. (hopefully the LAST fix on the combat system)
+ 
+
 Patch 0.03 29.12.13
 Patchnotes:
 - Bugfix:
@@ -53,8 +57,10 @@ Patchnotes:
 - Dragons gain XP through Kills (they need the deathblow to obtain XP)
 - Dragons Strength & Resistances grow with their level
 - Notice: Dragons will have upgradeable abilities, which will need a specific DragonLevel to buy/upgrade in the shop
+
 Patch 0.02 02.12.13
 Patchnotes:
 - Bugfix:
 - Fixed a bug, which made orcs invisible, before first golem spawn.
+ 
 Patch 0.01 Alpha Release 02.12.13
