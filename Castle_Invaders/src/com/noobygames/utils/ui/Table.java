@@ -78,7 +78,7 @@ public class Table extends SimpleElement {
 	 * @throws OutOfBoundingException
 	 **/
 	public void addElement(ClickableElement e) throws OutOfBoundingException {
-		if (!OverlapTester.outOfBounding(this.getPosition(), e.getPosition()))
+		if (OverlapTester.outOfBounding(this.getPosition(), e.getPosition()))
 			elements.add(e);
 		else
 			throw new OutOfBoundingException();
