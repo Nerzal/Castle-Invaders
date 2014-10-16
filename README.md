@@ -3,6 +3,8 @@ Castle-Invaders
 
 Multiplattformer Game, created using libGDX
 
+Thanks to http://www.reinerstilesets.de/ for providing free sprites and tools and more!
+
 
 ============================
 Changelog
