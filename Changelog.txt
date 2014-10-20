@@ -15,6 +15,7 @@ Patchnotes:
  	- Added some internal store things (like read storeObjects out of a database)
  	- Added burndamage to the lavagolem's fireBalls
  	- Added a root effect to the icegolem's grumblingIce
+ 	
 
 Patch 0.04 30.12.13
 
